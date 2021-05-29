@@ -4,7 +4,7 @@ import React  from 'react';
 import "./index.css";
 
 function HoneyCombHero() {
-  const [techStack, setTechStack] = useState([]);
+  // const [techStack, setTechStack] = useState([]);
 
   // useEffect(() => {
   //   API.getTechStack()
