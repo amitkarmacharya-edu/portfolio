@@ -1,17 +1,18 @@
-import React, { useEffect, useState } from "react";
-import API from "../../utils/API";
+// import React, { useEffect, useState } from "react";
+import React  from 'react';
+// import API from "../../utils/API";
 import "./index.css";
 
 function HoneyCombHero() {
   const [techStack, setTechStack] = useState([]);
 
-  useEffect(() => {
-    API.getTechStack()
-      .then((res) => {
-        setTechStack(res.data);
-      })
-      .catch((err) => console.log("No Data"));
-  }, []);
+  // useEffect(() => {
+  //   API.getTechStack()
+  //     .then((res) => {
+  //       setTechStack(res.data);
+  //     })
+  //     .catch((err) => console.log("No Data"));
+  // }, []);
 
   return (
     <section className="hero-container">
