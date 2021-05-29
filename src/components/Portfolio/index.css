@@ -41,22 +41,27 @@
 }
 
 .project-role {
+  padding: .25rem;
   margin: .5rem 0 0 1rem;
+
   box-sizing: border-box;
   display: inline-block;
+
   letter-spacing: .15rem !important;
   font-size: 16px;
-  font-weight: 100 !important;
+  font-weight: 400 !important;
   font-style: normal !important;
+  color: rgb(77, 133, 77);
+
   border-bottom-color: rgb(201, 201, 201) !important;;
   border: 1px solid rgb(201, 201, 201);
-  padding: .25rem;
   border-radius: .25rem;
-  background-color: whitesmoke !important;
+
+  /* background-color: whitesmoke !important; */
 }
 
 .portfolio-project .project-thumbnail{
-  border: 1px solid rgb(218, 218, 218);
+  /* border: 1px solid rgb(218, 218, 218); */
   border-radius: .25rem;
   padding: .25rem;
   max-width: 100%;

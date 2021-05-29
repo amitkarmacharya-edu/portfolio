@@ -77,7 +77,7 @@ const Portfolio = () => {
           <div className="project-thumbnail">
             <img
               src="./assets/images/covid.png"
-              alt="Bike Shop site screenshot"
+              alt="covid stats and test site screenshot"
             />
           </div>
           <div className="project-info">
@@ -154,7 +154,7 @@ const Portfolio = () => {
           <div className="project-thumbnail">
             <img
               src="./assets/images/mbdirect.png"
-              alt="Bike Shop site screenshot"
+              alt="M B Direct site screenshot"
             />
           </div>
           <div className="project-info">

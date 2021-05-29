@@ -1,10 +1,9 @@
-// import React, { useEffect, useState } from "react";
-import React  from 'react';
+import React, { useState } from "react";
 // import API from "../../utils/API";
 import "./index.css";
 
 function HoneyCombHero() {
-  // const [techStack, setTechStack] = useState([]);
+  const [techStack, setTechStack] = useState([]);
 
   // useEffect(() => {
   //   API.getTechStack()
@@ -41,11 +40,11 @@ function HoneyCombHero() {
       <div className="techstack-text" data-testid="techstack-text">
           <div className="front-end">
             <h5 className="techstack-head">Front-End </h5>
-            <p>html5, css3, javascript, bootstrap, materialize, react</p>
+            <p>html5, css3, Javascript, bootstrap, materialize, react</p>
           </div>
           <div className="back-end">
             <h5 className="techstack-head">Back-End </h5>
-            <p>nodejs, express, sequelize, mysql, mongoose, mongodb, meteor</p>
+            <p>node, express, sequelize, mysql, mongoose, mongodb, meteor</p>
           </div>
           <div className="principles">
             <h5 className="techstack-head">Development Principles </h5>
