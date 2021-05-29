@@ -1,0 +1,187 @@
+.hero-container {
+  min-height: 1016px;
+  max-height: 1400px;
+}
+
+.web-author-info {
+  height: calc(100vh - 60px);
+  min-height: 508px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  z-index: 9;
+  font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+}
+
+.display-block {
+  display: block;
+}
+
+.web-author-name {
+  margin-top: 2rem;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.2rem;;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+
+.web-author-title {
+  margin-top: -3rem;
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: .5rem;
+}
+
+.web-dev-head {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.web-info-tiny {
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: .25rem;
+}
+
+.web-dev-info {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+
+  letter-spacing: .5rem;
+}
+
+.techstack-text {
+  box-sizing: border-box;
+  height: 80vh;
+  min-height: 508px;
+  max-height: 640px;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.techstack-text div {
+  margin-bottom: 2.5rem;
+}
+
+.techstack-text h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: small;
+  letter-spacing: .1rem;
+}
+
+.techstack-text p {
+  font-weight: 300;
+  font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  color: rgb(112, 112, 112);
+  letter-spacing: .1rem;
+}
+
+.arrow-link {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black !important;
+  font-weight: 400;
+  border-bottom: 1px solid black;
+}
+
+@media(width: 280px) {
+  .techstack-text {
+    margin: 4rem 0;
+  }
+}
+
+@media(width: 320px) {
+  .techstack-text {
+    margin: 4rem 0; 
+  }
+}
+
+@media (min-width: 576px) {
+
+  .hero-container {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .web-author-info {
+    height: auto;
+    min-height: auto;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .web-author-name {
+    margin-top: 4rem;
+    font-size: 1.4rem;
+  }
+
+  .web-author-title {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
+  .web-dev-head { 
+    height: auto;
+  }
+
+  .web-dev-info {
+    width: 90%;
+    font-size:  1.5rem;
+  }
+
+  .web-info-tiny {
+    letter-spacing: 0.1rem;
+  }
+
+  .techstack-text {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .techstack-head, .techstack-text p {
+    margin: 1rem;
+  }
+
+  .techstack-text div {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+}
+
+@media(min-width: 999.8px) {
+  .hero-container {
+    min-height: 900px;
+    height: auto;
+    justify-content: space-around;
+  }
+}
+
+@media(min-width: 1200px) {
+  .hero-container{
+    height: calc(100vh - 60px);
+  }
+}

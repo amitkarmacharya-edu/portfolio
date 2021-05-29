@@ -1,0 +1,89 @@
+footer {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer section {
+  padding: .5rem;
+  margin-bottom: 2rem;
+}
+
+footer section h5 {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  margin-bottom: .5rem;
+}
+
+footer section h5 span {
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+footer section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-transform: capitalize;
+}
+
+footer section li {
+  padding: .15rem;
+}
+
+footer section li a {
+  color: rgb(39, 39, 39) !important;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-contacts ul {
+  text-transform: capitalize !important;
+}
+
+.footer-contacts ul li {
+  display: flex;
+  align-items: center;
+}
+
+footer ul li img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+footer ul li a {
+  font-family: inherit;
+  text-transform: none;
+  font-weight: 300;
+}
+
+footer ul li a:hover {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+}
+
+
+.footer-links ul {
+  flex-direction: row;
+}
+
+.footer-links li a {
+  text-transform: capitalize;
+}
+
+footer h5:last-child {
+  width: 100%;
+  font-size: 11px;
+  color: rgb(80, 80, 80);
+  margin-bottom: 0; 
+  text-align: center;
+}
